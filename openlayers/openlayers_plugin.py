@@ -145,6 +145,7 @@ class OpenlayersPlugin:
     self.olLayerTypeRegistry.add( OlLayerType(self, 'stamen_watercolor', 'Stamen Watercolor/OSM', 'Stamen', 'stamen_icon.png', True) )
     self.olLayerTypeRegistry.add( OlLayerType(self, 'stamen_terrain', 'Stamen Terrain-USA/OSM', 'Stamen', 'stamen_icon.png', True) )
     self.olLayerTypeRegistry.add( OlLayerType(self, 'tomtom_base', 'TomTom Base', 'Various', 'tomtom_icon.png', True) )
+    self.olLayerTypeRegistry.add( OlLayerType(self, 'Esri Imagery World', 'Esri_icon.png', 'Esri_Imagery_World.html', True) )
     # Overview
     self.olOverview = OLOverview( iface, self.olLayerTypeRegistry )
 
